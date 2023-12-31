@@ -27,16 +27,9 @@
       flex-grow: 1;
     }
     .public-account .name {
-      font-size: 24px;
+      font-size: 16px;
       font-weight: bold;
       margin-bottom: 10px;
-    }
-    .public-account .description {
-      margin-bottom: 10px;
-      color: #666;
-    }
-    .public-account .stats {
-      color: #999;
     }
     .public-account .stats div {
       margin-right: 20px;
@@ -67,41 +60,36 @@
     }
   </style>
 </head>
+</body>
 <body>
+<body background="colour.jpg" style="background-size:120%;background-attachment: fixed;">
   <div class="container">
     <h1>网站首页</h1>
-    <h3>请注意：网站现在是测试阶段，正式版网站详见公众号发布</h3>
-    <h5>版本号：Base0.1.1.20231218</h5>
+    <h2>版本发布详情详见公众号</h2>
+    <h3>倒计时投稿/网站内部设计-请联系轩</h3>
+    <h4>版本号：Beta1.1.1.20231231</h4>
+    <span><h4>此网站已安全运行<spam id = "days">0</spam>天</span></h4>
+    <script>
+      var s1 = '2023-11-01';//设置为你的建站时间
+      s1 = new Date(s1.replace(/-/g, "/"));
+      s2 = new Date();
+      var days = s2.getTime() - s1.getTime();
+      var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+      document.getElementById('days').innerHTML = number_of_days;
+    </script>
     <a href="GoogleDino/GoogleDino.html" target="_blank"><button><h2 style="color:#ffffff">--小游戏-谷歌小恐龙(请使用电脑端打开)--</h2></button></a>
-    <a href="login/index.html" target="_blank"><button><h2 style="color:#ffffff">--登 录 / 注 册--</h2></button></a>
-    <a href="Christmas tree.html" target="_blank"><button><h2 style="color:#ffffff">--圣诞树Christmas tree--</h2></button></a>
-    <br/><br/><br/>
-    <div class="public-account">
-      <img src="休闲地标.png" alt="公众号头像--休闲地标">
-      <div class="info">
-        <div class="name">公众号名称：休闲地标</div>
-        <div class="description">订阅号：Xuan_landmark</div>
-        <div class="stats">
-          <div>创造时间：2023年11月</div>
-        </div>
-        <h2>部分文章</h2>
-        <ul class="article-list">
-          <li>
-            <a target="_blank">
-              <div class="title">1.电影推荐《肖申克的救赎》</div>
-              <div class="meta">发布时间：2023年11月</div>
-            </a >
-          </li>
-          <li>
-            <a target="_blank">
-              <div class="title">2.音乐推荐《哪里都是你》</div>
-              <div class="meta">发布时间：2023年11月</div>
-            </a >
-          </li>
-          <!-- 添加更多文章 -->
-        </ul>
-      </div>
-    </div>
+    <a href="login-index.html" target="_blank"><button><h2 style="color:#ffffff">--登 录 / 注 册--</h2></button></a>
+    <a href="2024/index.html" target="_blank"><button><h2 style="color:#ffffff">--2024年倒计时--</h2></button></a>
+    <a href="2024Spring%20Festival/index.html" target="_blank"><button><h2 style="color:#ffffff">--2024年除夕倒计时--</h2></button></a>
+    <br/>
+    <p>公众号：休闲地标(Xuan_landmark)</p>
+    <p>视频号：这可乐好可乐</p>
+    <p>抖音：这可乐好可乐</p>
+    <p>西瓜视频：这可乐好可乐</p>
+    <p>哔哩哔哩：这可乐好可乐</p>
+    <p>小红书：这可乐好可乐</p>
+    <p>QQ号：3342483539</p>
+
   </div>
 </body>
 </html>
