@@ -103,7 +103,6 @@ class Snowflake {
     if (stop === true) {
       newyear();
       clearInterval(time);
-      window.location.href="firework.html";
     }
   }, 1000);
   // 定时器 控制图片自动切换

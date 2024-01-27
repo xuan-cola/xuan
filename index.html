@@ -59,37 +59,55 @@
       font-size: 14px;
     }
   </style>
+  <style>
+    .box{
+      height:40px;
+      border-top: 0px solid #ffffff;
+      border-bottom: 0px solid #000000;
+      text-align: center;
+    }
+    .box a{
+      width: 120px;
+      height: 60px;
+      display: inline-block;
+      text-align: center;
+      line-height: 60px;
+      font-size: 0.5px;
+      color: #000000;
+      text-decoration: none;
+    }
+    .box a:hover{
+      background-color: #9fdae7;
+      color: black;
+    }
+
+  </style>
 </head>
 </body>
 <body>
+<div class="box">
+  <a href="index.html"><h4>首页</h4></a>
+  <a href="index-introduction.html"><h4>作者简介</h4></a>
+  <a href="index-time.html"><h4>网站运行天数</h4></a>
+  <a href=""><h4>-</h4></a>
+  <a href=""><h4>-</h4></a>
+  <a href=""><h4>-</h4></a>
+  <a href=""><h4>-</h4></a>
+  <a href=""><h4>-</h4></a>
+  <a href=""><h4>-</h4></a>
+  <a href="login-index.html"><h4>登录</h4></a>
 <body background="colour.jpg" style="background-size:120%;background-attachment: fixed;">
+</div>
   <div class="container">
+    <br/>
+    <br/>
     <h1>网站首页</h1>
     <h2>版本发布详情详见公众号</h2>
     <h3>倒计时投稿/网站内部设计-请联系轩</h3>
-    <h4>版本号：Beta1.1.1.20231231</h4>
-    <span><h4>此网站已安全运行<spam id = "days">0</spam>天</span></h4>
-    <script>
-      var s1 = '2023-11-01';//设置为你的建站时间
-      s1 = new Date(s1.replace(/-/g, "/"));
-      s2 = new Date();
-      var days = s2.getTime() - s1.getTime();
-      var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
-      document.getElementById('days').innerHTML = number_of_days;
-    </script>
+    <h4>版本号：Beta1.2.1.20240127</h4>
     <a href="GoogleDino/GoogleDino.html" target="_blank"><button><h2 style="color:#ffffff">--小游戏-谷歌小恐龙(请使用电脑端打开)--</h2></button></a>
-    <a href="login-index.html" target="_blank"><button><h2 style="color:#ffffff">--登 录 / 注 册--</h2></button></a>
     <a href="2024/index.html" target="_blank"><button><h2 style="color:#ffffff">--2024年倒计时--</h2></button></a>
     <a href="2024Spring%20Festival/index.html" target="_blank"><button><h2 style="color:#ffffff">--2024年除夕倒计时--</h2></button></a>
-    <br/>
-    <p>公众号：休闲地标(Xuan_landmark)</p>
-    <p>视频号：这可乐好可乐</p>
-    <p>抖音：这可乐好可乐</p>
-    <p>西瓜视频：这可乐好可乐</p>
-    <p>哔哩哔哩：这可乐好可乐</p>
-    <p>小红书：这可乐好可乐</p>
-    <p>QQ号：3342483539</p>
-
   </div>
 </body>
 </html>
